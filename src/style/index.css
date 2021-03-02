@@ -5,16 +5,85 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
+}
+
+.nav {
+  background-color: #3b5998;
+}
+
+.header {
+  width: 70%;
+  margin: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 900;
+  border: 4px;
+}
+
+.register-button {
+  background-color: #42b72a;
   font-size: 16px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-bottom: -10px;
 }
 
-* {
-  box-sizing: border-box;
+.join-facebook {
+  margin-left: auto;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.content > div:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.content-list {
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.block {
+  margin: 10px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+.block div:nth-of-type(1) {
+  font-size: 16px;
+  font-weight: 900;
+  margin: 10px auto;
+}
+.block div:nth-of-type(2) {
+  color: gray;
+  text-align: center;
+  font-size: 14px;
+}
+
+button {
+  margin-top: auto;
 }
